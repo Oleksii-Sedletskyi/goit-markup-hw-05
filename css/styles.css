@@ -547,7 +547,7 @@ body {
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:focus
+.modal-close-btn:focus,
 .modal-close-btn:active {
   background-color: #404bbf;
   border: none;
@@ -600,11 +600,10 @@ body {
 .review-form-field-wrapper {
   position: relative;
   width: 360px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-input-wrapper {
   position: relative;
-
 }
 .review-form-field-icon {
   position: absolute;
