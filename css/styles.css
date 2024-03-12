@@ -604,6 +604,7 @@ body {
 }
 .review-form-input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 .review-form-field-icon {
   position: absolute;
