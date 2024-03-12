@@ -585,12 +585,12 @@
 
 
     <!-- ===========Bakdrop======= -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon"
           width="8"
-          heihgt="8"
+          height="8"
           aria-label="close icon">
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
@@ -603,7 +603,7 @@
             <label for="user-name" class="review-form-field-label">Name</label>
             <div class="review-form-input-wrapper">
               <input 
-            class="review-form-input" name="user-name" id="user-name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" title="Oleksii" required />
+            class="review-form-input" name="user-name" type="text" id="user-name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" title="Oleksii" required />
             <svg class="review-form-field-icon"
             width="18"
             height="24" >
@@ -641,11 +641,11 @@
            </div>
            <div class="review-form-field-wrapper">
             <label for="user-comment" class="review-form-field-label">Comment</label>
-            <textarea class="review-form-message" name="user-comment" id="user-comment" placeholder="Enter text" required></textarea>
+            <textarea class="review-form-message" name="user-comment" id="user-comment" placeholder="Text input" required></textarea>
            </div>
            <div class="review-form-checkbox-wrapper">
-            <input type="checkbox" class="review-form-privacy-checkbox visually-hidden" name="privacy-policy" id="privacy-policy" value="true" required />
-            <label for="privacy-policy" class="review-form-checkbox-label">
+            <input type="checkbox" class="review-form-privacy-checkbox visually-hidden" value="true" id="user-privacy" name="user-privacy" required />
+            <label for="user-privacy" class="review-form-checkbox-label">
               <span class="review-form-own-checkbox">
                 <svg class="review-form-own-checkbox-icon"
                 width="10"
