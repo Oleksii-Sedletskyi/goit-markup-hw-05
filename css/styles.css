@@ -597,14 +597,20 @@ body {
   color: #8e8f99;
   margin-bottom: 4px;
 }
+
 .review-form-field-wrapper {
+  margin-bottom: 8px;
   position: relative;
   width: 360px;
-  margin-bottom: 8px;
+}
+.review-form-field-wrapper-comment {
+  margin-bottom: 16px;
+  position: relative;
+  width: 360px;
 }
 .review-form-input-wrapper {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .review-form-field-icon {
   position: absolute;
@@ -734,3 +740,6 @@ body {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
